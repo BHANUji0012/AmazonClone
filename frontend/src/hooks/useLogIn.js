@@ -15,7 +15,7 @@ const useLogin = () => {
         setError(null);
         try {
 
-            const URL = 'http://localhost:1400/api/v1/auth/login'
+            const URL = 'https://amazonclone-k43k.onrender.com/api/v1/auth/login'
             const OPTIONS = {
                 method: "POST",
                 headers: {

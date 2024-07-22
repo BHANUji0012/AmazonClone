@@ -13,7 +13,7 @@ const useSignUp = () => {
         setLoading(true);
         setError(null);
         try {
-            const response = await fetch('http://localhost:1400/api/v1/auth/signup', {
+            const response = await fetch('https://amazonclone-k43k.onrender.com/api/v1/auth/signup', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
